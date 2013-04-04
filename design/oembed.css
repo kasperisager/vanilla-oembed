@@ -1,0 +1,5 @@
+.oembedall-container > a,
+.oembedall-container > br,
+.oembedall-container > span {
+   display: none !important;
+}

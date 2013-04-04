@@ -1,0 +1,8 @@
+*.DS_Store
+*.lock
+*.phar
+vendor/
+components/
+.sass-cache/
+node_modules/
+*.sublime-workspace
