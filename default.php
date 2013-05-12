@@ -3,7 +3,7 @@
 $PluginInfo['OEmbed'] = array(
    'Name'         => 'OEmbed',
    'Description'  => 'OEmbed enables you to embed content from a myriad of different providers. Now with Spotify support!',
-   'Version'      => '1.3',
+   'Version'      => '1.3.1',
    'Author'       => 'Kasper K. Isager',
    'AuthorEmail'  => 'kasperisager@gmail.com',
    'AuthorUrl'    => 'http://github.com/kasperisager'
