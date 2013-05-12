@@ -6,7 +6,8 @@ jQuery(function() {
       'collegehumor.com/video/',
       'metacafe.com/watch/',
       'blip.tv/',
-      'hulu.com/watch/'
+      'hulu.com/watch/',
+      'spotify.com'
    ];
 
    // Audio providers
