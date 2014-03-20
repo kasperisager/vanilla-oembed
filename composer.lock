@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "bb88625fc4bc013150e924f875add134",
+    "packages": [
+        {
+            "name": "fg/essence",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/felixgirault/essence.git",
+                "reference": "b247df7606914af453fbd7bf3da43d26f0395c4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/felixgirault/essence/zipball/b247df7606914af453fbd7bf3da43d26f0395c4f",
+                "reference": "b247df7606914af453fbd7bf3da43d26f0395c4f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Félix Girault",
+                    "email": "felix.girault@gmail.com",
+                    "homepage": "http://www.felix-girault.fr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Extracts informations about medias on the web, like youtube videos, twitter statuses or blog articles.",
+            "homepage": "http://github.com/felixgirault/essence",
+            "keywords": [
+                "embed",
+                "media",
+                "oembed",
+                "opengraph"
+            ],
+            "time": "2014-03-08 15:46:11"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "beta",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

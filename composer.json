@@ -1,0 +1,15 @@
+{
+  "name": "kasperisager/vanilla-oembed",
+  "require": {
+    "fg/essence": "2.3.x"
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "Kasper Isager",
+    "email": "kasperisager@gmail.com"
+  }],
+  "minimum-stability": "beta",
+  "config": {
+    "vendor-dir": "library/vendors"
+  }
+}
