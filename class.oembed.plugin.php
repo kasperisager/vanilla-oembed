@@ -43,6 +43,12 @@ class OEmbedPlugin extends Gdn_Plugin
         $essence = \Essence\Essence::instance();
 
         // Replace links with embedable HTML
-        $mixed = $essence->replace($mixed);
+        $mixed = $essence->replace($mixed, function($media) {
+            $slug = str_replace(' ', '', ucwords($media->providerName));
+
+            $media->set('providerSlug', $slug);
+
+            include Gdn::controller()->fetchViewLocation($media->type, 'oembed', 'plugins/oembed');
+        });
     }
 }
