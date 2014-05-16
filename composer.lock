@@ -3,25 +3,28 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bb88625fc4bc013150e924f875add134",
+    "hash": "eb40299a06fb79706b2f0967ed47536c",
     "packages": [
         {
             "name": "fg/essence",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/felixgirault/essence.git",
-                "reference": "b247df7606914af453fbd7bf3da43d26f0395c4f"
+                "reference": "42824fa69f9ebc58b68a3297e730db989ec49f72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/felixgirault/essence/zipball/b247df7606914af453fbd7bf3da43d26f0395c4f",
-                "reference": "b247df7606914af453fbd7bf3da43d26f0395c4f",
+                "url": "https://api.github.com/repos/felixgirault/essence/zipball/42824fa69f9ebc58b68a3297e730db989ec49f72",
+                "reference": "42824fa69f9ebc58b68a3297e730db989ec49f72",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "php": ">=5.4.0"
+            },
+            "suggest": {
+                "felixgirault/essence-interfaces": "Allows better integration with different frameworks."
             },
             "type": "library",
             "autoload": {
@@ -49,23 +52,13 @@
                 "oembed",
                 "opengraph"
             ],
-            "time": "2014-03-08 15:46:11"
+            "time": "2014-03-29 12:35:10"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [
-
-    ],
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "stability-flags": [],
+    "platform": [],
+    "platform-dev": []
 }

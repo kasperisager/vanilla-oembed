@@ -1,7 +1,7 @@
 {
   "name": "kasperisager/vanilla-oembed",
   "require": {
-    "fg/essence": "2.3.x"
+    "fg/essence": "2.4.x"
   },
   "license": "MIT",
   "authors": [{
