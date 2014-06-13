@@ -3,7 +3,7 @@
 $PluginInfo['oembed'] = array(
     'Name'        => "OEmbed",
     'Description' => "OEmbed enables you to embed content from a myriad of different providers",
-    'Version'     => '2.0.0',
+    'Version'     => '2.0.1',
     'PluginUrl'   => 'https://github.com/kasperisager/vanilla-oembed',
     'Author'      => "Kasper Kronborg Isager",
     'AuthorEmail' => 'kasperisager@gmail.com',
