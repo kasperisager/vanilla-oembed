@@ -29,26 +29,28 @@ class OEmbedPlugin extends Gdn_Plugin
      *
      * @since  2.0.0
      * @access public
-     * @param  Gdn_Format $sender
-     * @param  array      $args
+     * @param  Gdn_PluginManager $sender
+     * @param  array             $args
      */
     public function base_links_handler($sender, $args)
     {
+        $self = $this;
+
         $mixed =& $args['Mixed'];
 
-        // Require Composer autoloader
-        require_once PATH_PLUGINS . '/oembed/library/vendors/autoload.php';
+        // Include Composer autoloader
+        $this->getResource('library/vendors/autoload.php', true);
 
         // Get instance of Essence library
         $essence = \Essence\Essence::instance();
 
         // Replace links with embedable HTML
-        $mixed = $essence->replace($mixed, function($media) {
+        $mixed = $essence->replace($mixed, function($media) use ($self) {
             $slug = str_replace(' ', '', ucwords($media->providerName));
 
             $media->set('providerSlug', $slug);
 
-            include Gdn::controller()->fetchViewLocation($media->type, 'oembed', 'plugins/oembed');
+            include $self->getView($media->type.'.php');
         });
     }
 }
