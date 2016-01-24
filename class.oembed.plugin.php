@@ -1,6 +1,6 @@
 <?php if (!defined('APPLICATION')) exit;
 
-$PluginInfo['oembed'] = array(
+$PluginInfo['OEmbed'] = array(
     'Name'        => "OEmbed",
     'Description' => "OEmbed enables you to embed content from a myriad of different providers",
     'Version'     => '2.0.1',
